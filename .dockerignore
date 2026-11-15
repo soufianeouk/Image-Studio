@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vscode
+.agent
+.agents
+.env
+.env.*
+node_modules
+dist
+.next
+*.log
+tsconfig.tsbuildinfo

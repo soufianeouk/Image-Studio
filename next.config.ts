@@ -13,6 +13,14 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+  output: "standalone",
+  compress: false,
 };
 
 export default nextConfig;

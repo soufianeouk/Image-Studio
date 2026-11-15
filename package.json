@@ -5,6 +5,7 @@
   "scripts": {
     "postinstall": "node scripts/prepare-codecs.mjs",
     "prebuild": "node scripts/prepare-codecs.mjs",
+    "docker:build": "docker build -f dockerfile -t image-studio:$(date +%Y%m%d-%H%M%S) -t image-studio:latest .",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
